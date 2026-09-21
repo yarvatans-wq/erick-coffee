@@ -1,0 +1,125 @@
+@import "tailwindcss";
+@plugin "daisyui";
+:root {
+  --height-header: 744px;
+}
+@font-face {
+  font-family: BiYekan;
+  src: url(../fonts/Yekan.ttf);
+}
+@theme {
+  --font-yekan: BiYekan;
+}
+.slider {
+  .swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #444;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+.swiper-button-next,
+.swiper-button-prev {
+  background-color: #0b0b0b;
+  border-radius: 50%;
+  svg {
+    width: 20px;
+    height: 20px;
+    path {
+      fill: whitesmoke;
+    }
+  }
+}
+.slider {
+  .swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #444;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+.slider {
+  .swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #444;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+.pag-2 {
+  position: relative !important;
+  margin-top: 24px !important;
+  text-align: center !important;
+}
+
+.pag-2 .swiper-pagination-bullet {
+  background: #9e624c !important;
+  opacity: 0.6 !important;
+  width: 10px !important;
+  height: 10px !important;
+}
+
+.pag-2 .swiper-pagination-bullet-active {
+  background: #9e624c !important;
+  opacity: 1 !important;
+  width: 12px !important;
+  height: 12px !important;
+}
+.swiper-slide {
+  background: linear-gradient(145deg, #ffffff, #f9f9f9) !important;
+  border-radius: 20px !important;
+  padding: 4px !important;
+  transition: all 0.3s ease !important;
+}
+
+.swiper-slide:hover {
+  transform: translateY(-6px) !important;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12) !important;
+}
+
+.slider .swiper-slide {
+  background: #ffffff !important;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05) !important;
+}

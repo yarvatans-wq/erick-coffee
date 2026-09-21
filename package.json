@@ -1,0 +1,22 @@
+{
+  "name": "mft191",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "tailwind": "npx @tailwindcss/cli -i ./src/css/main.css -o ./src/css/output.css --watch"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.3.3",
+    "daisyui": "^5.6.14",
+    "vite": "^8.0.12"
+  },
+  "dependencies": {
+    "@tailwindcss/cli": "^4.3.1",
+    "swiper": "^14.1.0",
+    "tailwindcss": "^4.3.1"
+  }
+}
