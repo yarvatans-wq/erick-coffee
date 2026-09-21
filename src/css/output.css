@@ -1172,14 +1172,8 @@
       background-color: color-mix(in oklab, var(--color-white) 20%, transparent);
     }
   }
-  .bg-\[url\(\/src\/images\/Leaf-7\.png\)\] {
-    background-image: url(/src/images/Leaf-7.png);
-  }
   .bg-\[url\(\/src\/images\/bg-header\.png\)\] {
     background-image: url(/src/images/bg-header.png);
-  }
-  .bg-\[url\(\/src\/svg\/leaf\.svg\)\] {
-    background-image: url(/src/svg/leaf.svg);
   }
   .bg-bottom-left {
     background-position: left bottom;
